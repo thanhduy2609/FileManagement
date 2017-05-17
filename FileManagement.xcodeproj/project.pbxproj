@@ -12,7 +12,6 @@
 		308AB8B31ECC899900884269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308AB8B11ECC899900884269 /* Main.storyboard */; };
 		308AB8B51ECC899900884269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308AB8B41ECC899900884269 /* Assets.xcassets */; };
 		308AB8B81ECC899900884269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308AB8B61ECC899900884269 /* LaunchScreen.storyboard */; };
-		308AB8C31ECC899A00884269 /* FileManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308AB8C21ECC899A00884269 /* FileManagementTests.swift */; };
 		308AB8CE1ECC899A00884269 /* FileManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308AB8CD1ECC899A00884269 /* FileManagementUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +41,6 @@
 		308AB8B71ECC899900884269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		308AB8B91ECC899900884269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		308AB8BE1ECC899A00884269 /* FileManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		308AB8C21ECC899A00884269 /* FileManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagementTests.swift; sourceTree = "<group>"; };
-		308AB8C41ECC899A00884269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		308AB8C91ECC899A00884269 /* FileManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		308AB8CD1ECC899A00884269 /* FileManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagementUITests.swift; sourceTree = "<group>"; };
 		308AB8CF1ECC899A00884269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				308AB8AC1ECC899900884269 /* FileManagement */,
-				308AB8C11ECC899A00884269 /* FileManagementTests */,
 				308AB8CC1ECC899A00884269 /* FileManagementUITests */,
 				308AB8AB1ECC899900884269 /* Products */,
 			);
@@ -105,15 +101,6 @@
 				308AB8B91ECC899900884269 /* Info.plist */,
 			);
 			path = FileManagement;
-			sourceTree = "<group>";
-		};
-		308AB8C11ECC899A00884269 /* FileManagementTests */ = {
-			isa = PBXGroup;
-			children = (
-				308AB8C21ECC899A00884269 /* FileManagementTests.swift */,
-				308AB8C41ECC899A00884269 /* Info.plist */,
-			);
-			path = FileManagementTests;
 			sourceTree = "<group>";
 		};
 		308AB8CC1ECC899A00884269 /* FileManagementUITests */ = {
@@ -268,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				308AB8C31ECC899A00884269 /* FileManagementTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +493,7 @@
 				308AB8D41ECC899A00884269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		308AB8D51ECC899A00884269 /* Build configuration list for PBXNativeTarget "FileManagementTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +502,7 @@
 				308AB8D71ECC899A00884269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		308AB8D81ECC899A00884269 /* Build configuration list for PBXNativeTarget "FileManagementUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +511,7 @@
 				308AB8DA1ECC899A00884269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
